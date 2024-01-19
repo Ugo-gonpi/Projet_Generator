@@ -5,13 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PassWord Generator</title>
     <link rel="stylesheet" href="./public/css/style.css">
+    <script src="https://kit.fontawesome.com/3cd94d8ed6.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
+    <div class="mainBox">
+        <h2>Password Generator</h2>
+        <div>
+            <input type="text"> <i class="fa-light fa-clipboard"></i>
+        </div>
 
+        <div class="settings">
+            
+            <div class="lengthPass">
+                <p>Password length</p>
+                <input type="number" class="check">
+            </div>
+        
+            <div class="upperCase">
+                <p>Include uppercase letters</p>
+                <input type="checkbox" class="check">
+            </div>
+        
+            <div class="lowerCase">
+                <p>Include lowercase letters</p>
+                <input type="checkbox" class="check">
+            </div>
+        
+            <div class="numbers">
+                <p>Include numbers</p>
+                <input type="checkbox" class="check">
+            </div>
+        
+            <div class="symbols">
+                <p>Include symbols</p>
+                <input type="checkbox" class="check">
+            </div>
+        </div>
+    
+        <button>Generate Password</button>
+    
+    </div>
 
     
-
     <script src="./public/js/main.js"></script>
 </body>
 </html>
