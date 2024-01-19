@@ -9,7 +9,7 @@ body {
 
 .mainBox {
     width: 350px;
-    height: 450px;
+    height: 400px;
     background-color: #3c7c9e;
     display: flex;
     align-items: center;
@@ -21,19 +21,21 @@ h2 {
     font-weight: bolder;
 }
 
-input {
+.falseInput {
+    display: flex;
     background-color: #375075;
     border: none;
     height: 25px;
-    width: 270px;
+    width: 290px;
 }
 
 button {
     background-color: #375075;
     color: white;
     border: none;
-    width: 260px;
+    width: 290px;
     height: 25px;
+    margin-top: 20px;
 }
 
 .settings {
@@ -61,7 +63,7 @@ button {
 
 .upperCase input {
     width: 20px;
-    margin-left: 100px;
+    margin-left: 110px;
 }
 
 .lowerCase {
@@ -71,7 +73,7 @@ button {
 
 .lowerCase input {
     width: 20px;
-    margin-left: 100px;
+    margin-left: 110px;
 }
 
 
@@ -82,7 +84,7 @@ button {
 
 .numbers input {
     width: 20px;
-    margin-left: 151px;
+    margin-left: 162px;
 }
 
 .symbols {
@@ -92,5 +94,5 @@ button {
 
 .symbols input {
     width: 20px;
-    margin-left: 152px;   
+    margin-left: 163px;   
 }
