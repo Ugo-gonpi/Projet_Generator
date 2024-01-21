@@ -1,4 +1,4 @@
-
+// -------------------------Ici on selectionne tous les checkmarks et bouton dont on aura besoin
 let longuerPass = document.querySelectorAll("input")[0] 
 
 let lettreMaj = document.querySelectorAll("input")[1] 
@@ -6,8 +6,8 @@ let lettreMin = document.querySelectorAll("input")[2]
 let nombre = document.querySelectorAll("input")[3] 
 let symboles = document.querySelectorAll("input")[4] 
 
-let clipboardCopy = document.querySelectorAll("button")[0] // <--- bouton pour copier le password
-let generatePassword = document.querySelectorAll("button")[1] // <--- bouton qui génere le password
+let clipboardCopy = document.querySelectorAll("button")[0] 
+let generatePassword = document.querySelectorAll("button")[1] 
 
 let passwordDisplay = document.querySelector(".falseInput")
 
